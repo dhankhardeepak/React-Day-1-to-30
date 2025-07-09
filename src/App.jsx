@@ -1,4 +1,5 @@
 import Counter from "./components/Counter"
+import Greeting from "./components/Greeting"
 
 function App() {
 
@@ -8,6 +9,11 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>Project 1 - Counter APP</h2>
         <Counter />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Project 2 - Greeting APP</h2>
+        <Greeting />
       </div>
     </>
   )
