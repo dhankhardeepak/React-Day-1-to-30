@@ -10,3 +10,86 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Day 01: Counter App 🧮
+
+## 🔍 Project Description
+This is a simple counter app built with React. It demonstrates basic concepts like functional components, useState hook, and event handling.
+
+## 🚀 Features
+- Increment count
+- Decrement count
+- Reset count
+- Prevent negative numbers (optional)
+
+## 🧠 Concepts Used
+- useState
+- Functional components
+- Event handling
+
+## 📸 Screenshot
+(Add a screenshot here if you want)
+
+## 📂 How to Run
+npm install
+npm start
+
+# 🙋‍♂️ Day 2: Greeting App
+
+## 📌 Project Description
+A small React app where the user enters their name and clicks "Show Greeting" to see a personalized message. Prevents empty submissions and shows clear validation.
+
+## 🚀 Features
+- Controlled input field using `useState`
+- Shows greeting only when input is valid
+- Disables button if input is empty
+- Clean, minimalist UI
+
+## 🧠 Concepts Covered
+- Controlled Components
+- Conditional Rendering
+- Input Validation
+- useState Hook
+
+## 💬 Interview Questions
+1. What are controlled components in React?
+2. How would you validate form input in React?
+3. What's the difference between stateful and stateless components?
+4. How does `useState` trigger re-renders?
+
+## 📁 Folder Structure
+day-02-greeting-app/
+├── src/
+│ ├── Greeting.jsx
+│ └── styles.css (optional)
+├── public/
+├── README.md
+└── screenshot.png
+
+# ✅ Day 3: Todo List App (React)
+
+## 📌 Project Description
+A minimal yet fully functional Todo List built in React. Users can add and remove tasks dynamically, with input validation and auto-focus for improved UX.
+
+## 🚀 Features
+- Add tasks via controlled input
+- Delete specific tasks
+- Real-time input validation with error messaging
+- Auto-focus on input field
+- "No tasks" message when list is empty
+
+## 🧠 Concepts Covered
+- useState Hook for state management
+- useRef + useEffect for input focus
+- List rendering with `.map()`
+- Conditional rendering
+- Error handling in React forms
+
+## 📂 Folder Structure
+day-03-todo-app/
+├── public/
+├── src/
+│ ├── Todo.jsx
+│ └── styles.css (optional)
+├── README.md
+└── screenshot.png
