@@ -10,7 +10,7 @@ const Greeting = () => {
   }
 
   useEffect(() => {
-    inputref.current.focus();
+    //inputref.current.focus();
   }, []) 
   return (
     <div>
