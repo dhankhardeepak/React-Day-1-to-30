@@ -93,3 +93,29 @@ day-03-todo-app/
 │ └── styles.css (optional)
 ├── README.md
 └── screenshot.png
+
+
+# ✍️ Day 4: Real-Time Character & Word Counter
+
+## 📌 Project Description
+A live character and word counter app built using React. Displays live stats as the user types into a textarea, with warning color change if the 100-character limit is exceeded.
+
+## 🚀 Features
+- Controlled textarea using `useState`
+- Real-time character and word counts
+- Input limit warning after 100 characters
+- Dynamic UI color updates
+
+## 🧠 Concepts Covered
+- Controlled components
+- Event handling with `onChange`
+- String manipulation with `.trim()`, `.split()`
+- Conditional rendering and inline styles
+
+## 📂 Folder Structure
+day-04-character-counter/
+├── src/
+│ └── Character.jsx
+├── public/
+├── README.md
+└── screenshot.png

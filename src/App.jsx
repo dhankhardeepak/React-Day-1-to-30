@@ -1,3 +1,4 @@
+import Character from "./components/Character"
 import Counter from "./components/Counter"
 import Greeting from "./components/Greeting"
 import Todo from "./components/Todo"
@@ -21,6 +22,11 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>Todo App</h2>
         <Todo />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Character Count</h2>
+        <Character />
       </div>
       
     </>
