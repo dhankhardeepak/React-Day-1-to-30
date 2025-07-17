@@ -119,3 +119,26 @@ day-04-character-counter/
 ├── public/
 ├── README.md
 └── screenshot.png
+
+# React Day 5 – Fetch and Display User Data
+
+This project demonstrates how to:
+
+- Fetch user data from an API (`https://dummyjson.com/users`)
+- Show a loading state during API calls
+- Display the fetched user list
+- Allow users to refetch data on demand
+
+## 🔧 Tech Stack
+- React
+- useState & useEffect Hooks
+- Fetch API
+
+## 🚀 Getting Started
+1. Clone this repo
+2. Run `npm install`
+3. Start the project: `npm start`
+
+## 📂 Folder Structure
+src/
+└── FetchUserData.jsx

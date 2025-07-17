@@ -1,5 +1,6 @@
 import Character from "./components/Character"
 import Counter from "./components/Counter"
+import FetchUserData from "./components/FetchUserData"
 import Greeting from "./components/Greeting"
 import Todo from "./components/Todo"
 
@@ -28,7 +29,11 @@ function App() {
         <h2 style={{textAlign:"center"}}>Character Count</h2>
         <Character />
       </div>
-      
+      <hr />
+      <div>
+        <h2>Delay fetching User Data</h2>
+        <FetchUserData />
+      </div>
     </>
   )
 }
