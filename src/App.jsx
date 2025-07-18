@@ -2,6 +2,7 @@ import Character from "./components/Character"
 import Counter from "./components/Counter"
 import FetchUserData from "./components/FetchUserData"
 import Greeting from "./components/Greeting"
+import LiveSearchFilter from "./components/LiveSearchFilter"
 import Todo from "./components/Todo"
 
 function App() {
@@ -33,6 +34,11 @@ function App() {
       <div>
         <h2>Delay fetching User Data</h2>
         <FetchUserData />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Live Search Filter</h2>
+        <LiveSearchFilter />
       </div>
     </>
   )

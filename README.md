@@ -142,3 +142,31 @@ This project demonstrates how to:
 ## 📂 Folder Structure
 src/
 └── FetchUserData.jsx
+
+# 🚀 React Live Search Filter with Debounce
+
+This project is part of my 30 Days of React challenge — Day 6.
+
+## 📌 What It Does
+
+- Live search on a hardcoded user list
+- Case-insensitive filtering
+- Custom debounce hook for input optimization
+
+## 🛠️ Tech Stack
+
+- React.js
+- Hooks: useState, useEffect
+- JavaScript
+
+## 📂 Project Structure
+
+- `LiveSearchFilter.jsx` – main component
+- `useDebounce.js` – custom debounce hook
+- `Data/user.js` – hardcoded user data
+
+## 🧠 Lessons Learned
+
+- How to build reusable hooks
+- When and why to use debouncing
+- Keeping UI performant with minimal renders

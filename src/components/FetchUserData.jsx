@@ -11,7 +11,6 @@ const FetchUserData = () => {
     try {
         const res = await fetch('https://dummyjson.com/users');
         const data = await res.json();
-        console.log(loading, data)
         if(data && data.users.length){
             setLoading(false);
             setReFetch(true);

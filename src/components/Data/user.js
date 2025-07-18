@@ -1,0 +1,30 @@
+export const user = [{
+    id:1,
+    name:"deepak"
+},
+{
+    id:2,
+    name:"rachna"
+},
+{
+    id:3,
+    name:"Vandana"
+},
+{
+    id:4,
+    name:"naresh"
+},
+{
+    id:5,
+    name:"vedpal"
+},
+
+{
+    id:6,
+    name:"Anita"
+},
+{
+    id:7,
+    name:"Sheero"
+}
+]
