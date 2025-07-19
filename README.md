@@ -170,3 +170,40 @@ This project is part of my 30 Days of React challenge — Day 6.
 - How to build reusable hooks
 - When and why to use debouncing
 - Keeping UI performant with minimal renders
+
+# Day 7 - FAQ Accordion with Smooth Animations 🔄✨
+
+Welcome to Day 7 of my **30 Days of React** challenge!
+
+Today, I built a **clean and interactive FAQ Accordion component** using React. Each question can be expanded or collapsed to reveal the answer, and I've added a **subtle slide-down animation** to elevate the user experience.
+
+---
+
+## 🚀 Features
+
+- Toggle (expand/collapse) FAQ answers
+- Single active answer at a time (accordion behavior)
+- Smooth slide-down animation on reveal
+- Clean and modular component structure
+- Simple and reusable logic
+
+---
+
+## 🧠 What I Learned
+
+- Handling toggle state per item using `useState`
+- Managing active item logic using `id`
+- Applying conditional rendering for expanded items
+- Implementing keyframe-based CSS animations for smooth transitions
+- Writing clean and scoped component styles
+
+---
+
+## 📁 File Structure
+/src
+├── components
+│ └── Faq.js
+├── Data
+│ └── faqData.js
+├── css
+│ └── faq.css

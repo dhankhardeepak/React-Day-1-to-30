@@ -1,5 +1,6 @@
 import Character from "./components/Character"
 import Counter from "./components/Counter"
+import Faq from "./components/Faq"
 import FetchUserData from "./components/FetchUserData"
 import Greeting from "./components/Greeting"
 import LiveSearchFilter from "./components/LiveSearchFilter"
@@ -39,6 +40,11 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>Live Search Filter</h2>
         <LiveSearchFilter />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>FAQ's Accordion</h2>
+        <Faq />
       </div>
     </>
   )

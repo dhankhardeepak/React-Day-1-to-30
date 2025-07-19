@@ -1,0 +1,30 @@
+.quediv{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.question{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.answer{
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+     animation: slideDown 0.3s ease-out;
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 500px; /* enough for any answer text */
+  }
+}
