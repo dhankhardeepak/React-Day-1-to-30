@@ -3,7 +3,6 @@ import { faqData } from './Data/faqData'
 import './css/faq.css'
 
 const Faq = () => {
-  console.log(faqData)
   const [activeItem, setActiveItem] = useState(0)
   
   const onQuestionClick = (id) => {
@@ -37,6 +36,5 @@ const Faq = () => {
     </div>
   )
 }
-
 
 export default Faq

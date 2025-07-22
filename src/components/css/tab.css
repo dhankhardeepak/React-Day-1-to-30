@@ -1,0 +1,22 @@
+.tabButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.tabButtons button{
+    outline: none;
+    padding: 5px 20px;
+}
+.TabMain{
+    margin-bottom: 50px;
+}
+.tabContent{
+    text-align: center;
+}
+.tabContent > div{
+        width: 400px;
+    margin: 20px auto 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

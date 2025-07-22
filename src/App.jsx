@@ -1,9 +1,11 @@
 import Character from "./components/Character"
 import Counter from "./components/Counter"
+import DropDown from "./components/DropDown"
 import Faq from "./components/Faq"
 import FetchUserData from "./components/FetchUserData"
 import Greeting from "./components/Greeting"
 import LiveSearchFilter from "./components/LiveSearchFilter"
+import Tab from "./components/Tab"
 import Todo from "./components/Todo"
 
 function App() {
@@ -45,6 +47,16 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>FAQ's Accordion</h2>
         <Faq />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Tabs</h2>
+        <Tab />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Custom Dropdown</h2>
+        <DropDown />
       </div>
     </>
   )

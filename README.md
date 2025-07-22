@@ -207,3 +207,78 @@ Today, I built a **clean and interactive FAQ Accordion component** using React. 
 │ └── faqData.js
 ├── css
 │ └── faq.css
+
+
+Day - 8 :- Continuing my 30-day React.js journey, today’s challenge was all about **accessibility and user-friendly interactions**.
+
+I built a **tab component** that’s:
+- **Keyboard navigable** via the `ArrowRight` and `ArrowLeft` keys
+- Styled with visual feedback for active states
+- Dynamically rendered using an array of tab data
+
+---
+
+### 👨‍💻 Why Build This?
+
+Tabbed interfaces are everywhere — dashboards, profile settings, admin panels — but most forget **keyboard users**.  
+This component aims to bridge that UX gap.
+
+---
+
+### 🚧 The Challenge
+
+**Objectives**:
+- Render a list of tabs and their content
+- Let users switch tabs with mouse _or_ keyboard
+- Add minimal yet functional accessibility practices
+
+---
+
+### 🧠 Key Learnings
+
+#### 1. State Management
+Using `useState`, I tracked the active tab and updated it with:
+```js
+setActiveTab(tab.id);
+
+
+# Day 9 - 🧠 Debounced Multi-Select Dropdown in React
+
+A polished, animated dropdown with:
+- ✅ Debounced input filtering
+- ✅ Outside click to close
+- ✅ Multi-select with "Select All"
+- ✅ Clean CSS animation
+- ✅ Reusable hooks: `useDebounce`, `useOutsideClick`
+
+## 🔧 Tech Stack
+
+- React
+- CSS (custom animations)
+- Functional components & hooks
+
+## 💡 Features
+
+- 🎯 Select multiple users from a list
+- 🔍 Debounced search input
+- ✅ Select all / deselect all
+- 🧼 Close dropdown on outside click
+- 🧠 Optimized for reusability and readability
+
+## 🚀 Getting Started
+
+1. Clone the repo
+2. Run `npm install`
+3. Start dev server with `npm start`
+
+---
+
+## 📂 File Structure
+/hooks
+├── useDebounce.js
+└── useOutsideClick.js
+/css
+└── dropdown.css
+/Data
+└── dropdownData.js
+DropDown.jsx
