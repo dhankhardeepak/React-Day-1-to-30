@@ -209,7 +209,7 @@ Today, I built a **clean and interactive FAQ Accordion component** using React. 
 │ └── faq.css
 
 
-Day - 8 :- Continuing my 30-day React.js journey, today’s challenge was all about **accessibility and user-friendly interactions**.
+# Day 8 - 🧠 Continuing my 30-day React.js journey, today’s challenge was all about **accessibility and user-friendly interactions**
 
 I built a **tab component** that’s:
 - **Keyboard navigable** via the `ArrowRight` and `ArrowLeft` keys
@@ -238,7 +238,6 @@ This component aims to bridge that UX gap.
 
 #### 1. State Management
 Using `useState`, I tracked the active tab and updated it with:
-```js
 setActiveTab(tab.id);
 
 
@@ -282,3 +281,23 @@ A polished, animated dropdown with:
 /Data
 └── dropdownData.js
 DropDown.jsx
+
+# 🚀 Day 10 - Toast Notification System | React.js 30-Day Challenge
+
+Today’s challenge was all about crafting a **reusable Toast Notification system** in React from scratch — no external libraries, just **React Context**, **Portals**, and **CSS animations**.
+
+## 📦 Features
+
+- 🔔 Display toast notifications globally
+- ✅ Success and ❌ Error toast types
+- ⏳ Auto-dismiss after 3 seconds
+- 🧼 Manual dismiss option
+- 🎯 Progress bar animation
+- 💡 Reusable Context and Toast component
+
+## 🛠️ Tech Stack
+
+- React.js
+- Context API
+- React Portals
+- CSS Animations

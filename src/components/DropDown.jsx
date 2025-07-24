@@ -42,8 +42,6 @@ const DropDown = () => {
         setSelectedItems(null)
     }
   }
-
-  console.log(selectedItems)
   
   return (
     <div>

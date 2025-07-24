@@ -58,6 +58,11 @@ function App() {
         <h2 style={{textAlign:"center"}}>Custom Dropdown</h2>
         <DropDown />
       </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Toast Notification System</h2>
+        
+      </div>
     </>
   )
 }

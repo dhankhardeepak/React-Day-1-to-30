@@ -1,0 +1,43 @@
+.toastmain{
+    position: fixed;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    z-index: 9;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+.toastmain.success{
+    background: green;
+    color: #fff;
+}
+.toastmain.failed{
+    background: red;
+    color: #fff;
+}
+.bar{
+    position: absolute;
+    width: 100%;
+    background: lightgreen;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+    animation: baranime 3s ease-in-out 0.1s;
+}
+.failed .bar{
+    background: pink;
+}
+@keyframes baranime {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
