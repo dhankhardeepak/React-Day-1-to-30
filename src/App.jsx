@@ -5,7 +5,9 @@ import Faq from "./components/Faq"
 import FetchUserData from "./components/FetchUserData"
 import Greeting from "./components/Greeting"
 import LiveSearchFilter from "./components/LiveSearchFilter"
+import Rating from "./components/Rating"
 import Tab from "./components/Tab"
+import ToastContainer from "./components/ToastContainer"
 import Todo from "./components/Todo"
 
 function App() {
@@ -61,7 +63,12 @@ function App() {
       <hr />
       <div>
         <h2 style={{textAlign:"center"}}>Toast Notification System</h2>
-        
+        <ToastContainer />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Star Rating</h2>
+        <Rating />
       </div>
     </>
   )

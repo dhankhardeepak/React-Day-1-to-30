@@ -5,8 +5,8 @@ import { createPortal } from 'react-dom'
 import './css/toast.css'
 
 
-const ToastContainer = ({toastList, removeToast}) => {
-  const {showToast} = useContext(toastContext) 
+const ToastContainer = () => {
+  const [{showToast, toastList, removeToast}] = useContext(toastContext) 
   
   return (
     <div>

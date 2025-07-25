@@ -1,0 +1,13 @@
+.ratingDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.ratingDiv > div{
+        width: 50px;
+}
+.ratingDiv > p{
+        width: 100%;text-align: center;
+}

@@ -282,6 +282,39 @@ A polished, animated dropdown with:
 └── dropdownData.js
 DropDown.jsx
 
+# 🧠 Day 9 - Debounced Multi-Select Dropdown in React
+
+A polished, animated dropdown with:
+- ✅ Debounced input filtering
+- ✅ Outside click to close
+- ✅ Multi-select with "Select All"
+- ✅ Clean CSS animation
+- ✅ Reusable hooks: `useDebounce`, `useOutsideClick`
+
+## 🔧 Tech Stack
+
+- React
+- CSS (custom animations)
+- Functional components & hooks
+
+## 💡 Features
+
+- 🎯 Select multiple users from a list
+- 🔍 Debounced search input
+- ✅ Select all / deselect all
+- 🧼 Close dropdown on outside click
+- 🧠 Optimized for reusability and readability
+
+## 🚀 Getting Started
+
+1. Clone the repo
+2. Run `npm install`
+3. Start dev server with `npm start`
+
+---
+
+## 📂 File Structure
+
 # 🚀 Day 10 - Toast Notification System | React.js 30-Day Challenge
 
 Today’s challenge was all about crafting a **reusable Toast Notification system** in React from scratch — no external libraries, just **React Context**, **Portals**, and **CSS animations**.
