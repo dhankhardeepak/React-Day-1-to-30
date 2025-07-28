@@ -1,0 +1,30 @@
+.accordionContainer{
+        box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.accordionContainer.active{
+    transition: ease-in-out 0.5s;
+    position: relative;
+}
+.Question{
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.answer p{
+    margin: 0;
+}
+.accordionContainer .answer.open{
+    animation: answer 0.5s ease-in-out;
+}
+@keyframes answer {
+    from{
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

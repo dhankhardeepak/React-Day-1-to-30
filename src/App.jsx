@@ -1,3 +1,4 @@
+import Accordion from "./components/Accordion"
 import Character from "./components/Character"
 import Counter from "./components/Counter"
 import DropDown from "./components/DropDown"
@@ -9,6 +10,8 @@ import Rating from "./components/Rating"
 import Tab from "./components/Tab"
 import ToastContainer from "./components/ToastContainer"
 import Todo from "./components/Todo"
+import { accordionData } from "./components/Data/accordionData"
+import Form from "./components/Form"
 
 function App() {
 
@@ -69,6 +72,16 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>Star Rating</h2>
         <Rating />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Star Rating</h2>
+        <Accordion data={accordionData} type={"multi"} />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Form Hook</h2>
+        <Form />
       </div>
     </>
   )

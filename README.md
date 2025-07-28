@@ -334,3 +334,20 @@ Today’s challenge was all about crafting a **reusable Toast Notification syste
 - Context API
 - React Portals
 - CSS Animations
+
+
+# Day 11 — Accordion Component (Single & Multiple Expand)
+
+Today’s challenge was to build a **reusable Accordion Component** in React that supports:
+
+- **Single expand**: Only one accordion item open at a time.
+- **Multiple expand**: Multiple accordion items can be open simultaneously.
+
+---
+
+### **Features**
+- Accepts data dynamically via props.
+- Controlled mode for `single` or `multi` expand using `type` prop.
+- Smooth animation when toggling content.
+- Simple API, reusable for FAQs or content sections.
+

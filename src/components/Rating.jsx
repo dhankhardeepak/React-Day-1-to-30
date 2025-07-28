@@ -18,7 +18,7 @@ const Rating = () => {
       {
         [1,2,3,4,5].map((item, idx) => {
             return (
-                <div onClick={() => setRating(idx + 1)} onMouseEnter={() => handleMouseEnter(item)} onMouseLeave={handleMouseLeave}>
+                <div key={idx} onClick={() => setRating(idx + 1)} onMouseEnter={() => handleMouseEnter(item)} onMouseLeave={handleMouseLeave}>
                     <Star color={`${idx < (hoverRating || rating) ? "yellow" : "black"}`}/>
                 </div>
             )
