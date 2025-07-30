@@ -351,3 +351,18 @@ Today’s challenge was to build a **reusable Accordion Component** in React tha
 - Smooth animation when toggling content.
 - Simple API, reusable for FAQs or content sections.
 
+# Day 12 — Custom `useForm` Hook with Validation
+
+Today’s challenge was to build a reusable **custom React hook** for handling forms with validation. The `useForm` hook manages:
+
+- Form state (`values`)
+- Field-level validation (`formErrors`)
+- Submit handling
+
+---
+
+### **Features**
+- Dynamic form validation (name, email, password)
+- Real-time error updates on `onChange`
+- Reusable across multiple forms
+- Auto-reset of form values after successful submission

@@ -13,6 +13,12 @@
     transform: translateX(-50%);
     width: 300px;
 }
+.toastmain.top-right{
+    top: 10px;
+    left: auto;
+    right : 10px;
+    transform: translateX(0);
+}
 .toastmain.success{
     background: green;
     color: #fff;
@@ -28,7 +34,7 @@
     height: 10px;
     left: 0;
     bottom: 0;
-    animation: baranime 3s ease-in-out 0.1s;
+    animation: baranime ease-in-out 0.1s;
 }
 .failed .bar{
     background: pink;
