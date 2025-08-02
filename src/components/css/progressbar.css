@@ -1,0 +1,14 @@
+.progressBar{
+    width: 100px;
+    position: relative;
+    height: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.progress{
+    height: 100%;
+    position: relative;
+    left: 0;
+    display: inline-block;
+    background: red;
+}

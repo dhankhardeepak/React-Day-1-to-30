@@ -12,6 +12,8 @@ import ToastContainer from "./components/ToastContainer"
 import Todo from "./components/Todo"
 import { accordionData } from "./components/Data/accordionData"
 import Form from "./components/Form"
+import ProgressBar from "./components/ProgressBar"
+import CircularBar from "./components/CircularBar"
 
 function App() {
 
@@ -82,6 +84,16 @@ function App() {
       <div>
         <h2 style={{textAlign:"center"}}>Form Hook</h2>
         <Form />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Progress Bar</h2>
+        <ProgressBar />
+      </div>
+      <hr />
+      <div>
+        <h2 style={{textAlign:"center"}}>Progress Bar</h2>
+        <CircularBar />
       </div>
     </>
   )

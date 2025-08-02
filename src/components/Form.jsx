@@ -4,7 +4,6 @@ import useForm from './hooks/useForm';
 const Form = () => {
   const {values, formErrors, handleOnChange, handleSubmit} = useForm({name:"", email:"", password:""})
 
-  console.log(formErrors)
  
   return (
     <div>

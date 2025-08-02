@@ -366,3 +366,28 @@ Today’s challenge was to build a reusable **custom React hook** for handling f
 - Real-time error updates on `onChange`
 - Reusable across multiple forms
 - Auto-reset of form values after successful submission
+
+# Day 13 — Animated Progress Bar
+🚀 Overview
+Today’s challenge: Build a fully animated progress bar using requestAnimationFrame — smooth, precise, and pausable.
+
+---
+
+### **Features**
+🎯 Smooth animation using requestAnimationFrame (frame-perfect updates).
+⏸ Pause & Resume with proper elapsed time tracking.
+🔄 Reset to start over anytime.
+⏱ Configurable duration.
+🖱 Pause on hover (UX boost).
+
+---
+
+### **Tech Used**
+1. React Hooks (useState, useRef, useEffect)
+2. requestAnimationFrame
+3. CSS Animations (for styling feedback)
+
+---
+
+### **Core Concept**
+Unlike setInterval, requestAnimationFrame syncs with the browser’s refresh rate for buttery smooth progress updates and accurate timing.
