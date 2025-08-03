@@ -391,3 +391,23 @@ Today’s challenge: Build a fully animated progress bar using requestAnimationF
 
 ### **Core Concept**
 Unlike setInterval, requestAnimationFrame syncs with the browser’s refresh rate for buttery smooth progress updates and accurate timing.
+
+### Day 14 — Circular Progress Bar with requestAnimationFrame
+
+### **Description**
+This project demonstrates a smooth animated circular progress bar built using SVG and requestAnimationFrame. It includes play, pause, and reset controls for precise animation management.
+
+---
+
+### **Features**
+Animated stroke using strokeDasharray & strokeDashoffset
+Accurate progress calculation
+Play/Pause/Reset control buttons
+Fully customizable duration and step
+
+---
+
+### **Learning**
+Using requestAnimationFrame for high-performance animations
+SVG stroke manipulation for circular progress indicators
+Handling progress updates using React state and refs
