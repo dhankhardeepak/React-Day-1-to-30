@@ -411,3 +411,30 @@ Fully customizable duration and step
 Using requestAnimationFrame for high-performance animations
 SVG stroke manipulation for circular progress indicators
 Handling progress updates using React state and refs
+
+# 🔢 OTP Input Component – React.js (Day 15)
+
+## 📌 Overview
+This project is part of my **30 Days of React.js Challenge**.  
+On **Day 15**, I built a **reusable OTP (One-Time Password) Input Component** that you often see in login and signup flows.  
+
+It supports:  
+✅ Configurable OTP length (4, 6, etc.)  
+✅ Auto-focus navigation between fields  
+✅ Backspace support to move backward  
+✅ Paste entire OTP in one go  
+✅ Clean & reusable API for any project  
+
+---
+
+## ⚡ Features
+- 🎯 **Reusable Component** – works for any OTP length  
+- 🚀 **Paste Support** – users can paste entire OTP  
+- ⌨️ **Keyboard Navigation** – auto-focus and backspace handling  
+- 🎨 **Customizable Styling** – easily theme with CSS  
+
+---
+
+## 🛠️ Tech Stack
+- React.js  
+- CSS  
